@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "binary independence model"
+version = "0.1.0"
+description = ""
+authors = ["Debin <99970804+DebinAl@users.noreply.github.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sastrawi = "^1.0.1"
+nltk = "^3.8.1"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+tabulate = "^0.9.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
